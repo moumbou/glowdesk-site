@@ -10,7 +10,7 @@
   var REPO = "moumbou/glowdesk-releases";
   // Fill these to show the "Une idée, une question ?" block. Leave empty to hide it.
   // WhatsApp: international format without "+" or spaces, e.g. "213555123456".
-  var CONTACT = { whatsapp: "", email: "" };
+  var CONTACT = { whatsapp: "+213783910329", email: "mbouzidi63@gmail.com" };
 
   var API = "https://api.github.com/repos/" + REPO + "/releases";
   var STABLE = "https://github.com/" + REPO + "/releases/latest/download/Glowdesk-Setup.exe";
