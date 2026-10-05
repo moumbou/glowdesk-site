@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5b2a4a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400..800&display=swap" rel="stylesheet">
+  <title>Nouveautés · Glowdesk</title>
+  <meta name="description" content="Les nouveautés de chaque version de Glowdesk.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="img/logo.svg" alt=""> Glowdesk</a>
+      <nav class="nav">
+        <a href="./#features" data-i18n="nav.features">Fonctionnalités</a>
+        <a href="./#free" data-i18n="nav.free">Gratuit</a>
+        <a href="./#faq" data-i18n="nav.faq">Questions</a>
+        <a href="changelog.html" data-i18n="nav.news">Nouveautés</a>
+      </nav>
+      <div class="top-actions">
+        <button class="lang" type="button" data-lang-toggle>العربية</button>
+        <a class="btn primary sm" href="./#download" data-i18n="nav.download">Télécharger</a>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <div class="wrap prose">
+      <span class="kicker"><span class="dot"></span><span data-i18n="nav.news">Nouveautés</span></span>
+      <h1 data-i18n="cl.title">Quoi de neuf dans Glowdesk</h1>
+      <p class="sub" data-i18n="cl.sub">Chaque version, la plus récente en premier. L'application se met à jour toute seule, inutile de la retélécharger.</p>
+      <div data-changelog>
+        <article class="release" id="v0.1.0">
+          <h3>Glowdesk 0.1.0 <span class="date">2026</span></h3>
+          <div class="body">
+            <ul>
+              <li>Première version : caisse avec lecteur de code-barres, produits avec variantes (teintes, contenances), lots et dates de péremption (vente du lot qui expire en premier), tableau de bord, équipe avec rôles et codes PIN</li>
+              <li>Français et arabe, mode clair et sombre</li>
+              <li>Sauvegardes automatiques et mises à jour automatiques</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>© <span data-year>2026</span> Glowdesk · Nexa Forge Pixel</span>
+      <nav>
+        <a href="changelog.html" data-i18n="nav.news">Nouveautés</a>
+        <a href="privacy.html" data-i18n="ft.privacy">Confidentialité</a>
+        <a href="license.html" data-i18n="ft.license">Conditions d'utilisation</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
